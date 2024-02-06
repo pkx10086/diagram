@@ -1,11 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T07:04:53.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="IaTqFOMtBYun4UFhPy2w" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T07:24:13.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="wUEfpM0-kqjhvT22WvMH" version="23.1.1" type="github">
   <diagram id="mE_audfQLTUp6M_aXCiv" name="第 1 页">
-    <mxGraphModel dx="1434" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3434" dy="1398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PnTa93UE3Sn6lEQWhYyV-1" value="replay-api" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="270" width="200" height="200" as="geometry" />
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-1" value="replay-api" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="280" width="310" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-6" value="点播视频Id生成在线回放" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="PnTa93UE3Sn6lEQWhYyV-1">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-3" value="replay-callback" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="220" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-30" value="视频回调" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;strokeWidth=2;" vertex="1" parent="PnTa93UE3Sn6lEQWhYyV-3">
+          <mxGeometry x="60" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-4" value="replay-finish" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="940" y="280" width="200" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnTa93UE3Sn6lEQWhYyV-4" source="PnTa93UE3Sn6lEQWhYyV-35" target="PnTa93UE3Sn6lEQWhYyV-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-35" value="完成" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;strokeWidth=2;" vertex="1" parent="PnTa93UE3Sn6lEQWhYyV-4">
+          <mxGeometry x="60" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-37" value="回调业务" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;strokeWidth=2;" vertex="1" parent="PnTa93UE3Sn6lEQWhYyV-4">
+          <mxGeometry x="60" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-5" value="元数据处理和静态化项目" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="200" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnTa93UE3Sn6lEQWhYyV-5" source="PnTa93UE3Sn6lEQWhYyV-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-32" value="元数据处理" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;strokeWidth=2;" vertex="1" parent="PnTa93UE3Sn6lEQWhYyV-5">
+          <mxGeometry x="40" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-7" value="cc账号ID、直播间Id、视频ID、视频标题、开始直播时间" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PnTa93UE3Sn6lEQWhYyV-6" target="PnTa93UE3Sn6lEQWhYyV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-9" value="入参" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PnTa93UE3Sn6lEQWhYyV-8">
+          <mxGeometry x="-0.0222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-2" value="replay-maker-api" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="200" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnTa93UE3Sn6lEQWhYyV-2" source="PnTa93UE3Sn6lEQWhYyV-11" target="PnTa93UE3Sn6lEQWhYyV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-11" value="校验账号" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;strokeWidth=2;" vertex="1" parent="PnTa93UE3Sn6lEQWhYyV-2">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnTa93UE3Sn6lEQWhYyV-2" source="PnTa93UE3Sn6lEQWhYyV-14" target="PnTa93UE3Sn6lEQWhYyV-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-14" value="校验房间ID" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;strokeWidth=2;" vertex="1" parent="PnTa93UE3Sn6lEQWhYyV-2">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnTa93UE3Sn6lEQWhYyV-2" source="PnTa93UE3Sn6lEQWhYyV-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-21" value="根据视频ID获取视频信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PnTa93UE3Sn6lEQWhYyV-19">
+          <mxGeometry x="-0.0206" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnTa93UE3Sn6lEQWhYyV-2" source="PnTa93UE3Sn6lEQWhYyV-16" target="PnTa93UE3Sn6lEQWhYyV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-16" value="获取视频信息" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;strokeWidth=2;" vertex="1" parent="PnTa93UE3Sn6lEQWhYyV-2">
+          <mxGeometry x="40" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnTa93UE3Sn6lEQWhYyV-2" source="PnTa93UE3Sn6lEQWhYyV-22" target="PnTa93UE3Sn6lEQWhYyV-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-22" value="组装直播信息" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;strokeWidth=2;" vertex="1" parent="PnTa93UE3Sn6lEQWhYyV-2">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnTa93UE3Sn6lEQWhYyV-2" source="PnTa93UE3Sn6lEQWhYyV-24" target="PnTa93UE3Sn6lEQWhYyV-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-24" value="组装回放信息" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;strokeWidth=2;" vertex="1" parent="PnTa93UE3Sn6lEQWhYyV-2">
+          <mxGeometry x="40" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnTa93UE3Sn6lEQWhYyV-2" source="PnTa93UE3Sn6lEQWhYyV-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-27" value="模拟点播转码视频回调" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;strokeWidth=2;" vertex="1" parent="PnTa93UE3Sn6lEQWhYyV-2">
+          <mxGeometry x="40" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PnTa93UE3Sn6lEQWhYyV-6" target="PnTa93UE3Sn6lEQWhYyV-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-13" value="视频Id生成在线回放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PnTa93UE3Sn6lEQWhYyV-10">
+          <mxGeometry x="-0.1368" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-18" value="点播视频" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="740" y="280" width="200" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-20" value="视频信息接口" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;strokeWidth=2;" vertex="1" parent="PnTa93UE3Sn6lEQWhYyV-18">
+          <mxGeometry x="50" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnTa93UE3Sn6lEQWhYyV-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PnTa93UE3Sn6lEQWhYyV-30" target="PnTa93UE3Sn6lEQWhYyV-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
