@@ -1,1 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T08:11:05.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.13" etag="7thrhq-DP6PnZkpKmVT0" type="github"><diagram id="mE_audfQLTUp6M_aXCiv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2024-02-06T02:44:43.211Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Z6Glz8OWEWsDoSkGjx0l" version="23.1.1" type="github">
+  <diagram id="mE_audfQLTUp6M_aXCiv" name="第 1 页">
+    <mxGraphModel dx="2261" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-2" value="admin" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="100" width="350" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bnxF5lEZ9LbwCtV9AJLx-2" source="bnxF5lEZ9LbwCtV9AJLx-4" target="bnxF5lEZ9LbwCtV9AJLx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-4" value="上传回放" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="bnxF5lEZ9LbwCtV9AJLx-2">
+          <mxGeometry x="30" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bnxF5lEZ9LbwCtV9AJLx-2" source="bnxF5lEZ9LbwCtV9AJLx-5" target="bnxF5lEZ9LbwCtV9AJLx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-5" value="MP4 or&amp;nbsp; CCR" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="bnxF5lEZ9LbwCtV9AJLx-2">
+          <mxGeometry x="30" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bnxF5lEZ9LbwCtV9AJLx-2" source="bnxF5lEZ9LbwCtV9AJLx-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bnxF5lEZ9LbwCtV9AJLx-2" source="bnxF5lEZ9LbwCtV9AJLx-11" target="bnxF5lEZ9LbwCtV9AJLx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-11" value="上传视频到OSS" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;strokeWidth=2;" vertex="1" parent="bnxF5lEZ9LbwCtV9AJLx-2">
+          <mxGeometry x="30" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-15" value="上传完成回调" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;strokeWidth=2;" vertex="1" parent="bnxF5lEZ9LbwCtV9AJLx-2">
+          <mxGeometry x="30" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-3" value="spruce" style="swimlane;whiteSpace=wrap;html=1;startSize=23;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="100" width="200" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-8" value="OSS凭证" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="bnxF5lEZ9LbwCtV9AJLx-3">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-18" value="组装视频下载地址等信息" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;strokeWidth=2;" vertex="1" parent="bnxF5lEZ9LbwCtV9AJLx-3">
+          <mxGeometry x="40" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnxF5lEZ9LbwCtV9AJLx-5" target="bnxF5lEZ9LbwCtV9AJLx-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-9" value="获取OSS上传凭证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bnxF5lEZ9LbwCtV9AJLx-7">
+          <mxGeometry x="-0.0113" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-14" value="阿里云OSS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bnxF5lEZ9LbwCtV9AJLx-15" target="bnxF5lEZ9LbwCtV9AJLx-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="590" />
+              <mxPoint x="480" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-23" value="replay-maker-api" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="690" y="100" width="240" height="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-25" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="bnxF5lEZ9LbwCtV9AJLx-23">
+          <mxGeometry x="50" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxF5lEZ9LbwCtV9AJLx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnxF5lEZ9LbwCtV9AJLx-18" target="bnxF5lEZ9LbwCtV9AJLx-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
