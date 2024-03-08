@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T07:57:32.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="73wLrdh_Cwn6T9B5ZQRl" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T08:24:41.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="6Ms7kLmj-JA43efFkn-8" version="24.0.2" type="github">
   <diagram name="第 1 页" id="9EHZgjo_UKtD6r8Uzgz9">
     <mxGraphModel dx="2261" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,6 +154,22 @@
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-52" value="pusher" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="270" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1dUwBtqG9SPAVf1FS5-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ub1dUwBtqG9SPAVf1FS5-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1dUwBtqG9SPAVf1FS5-64" value="room/config" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ub1dUwBtqG9SPAVf1FS5-62">
+          <mxGeometry x="-0.2516" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1dUwBtqG9SPAVf1FS5-61" value="后进学员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="570" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1dUwBtqG9SPAVf1FS5-63" value="获取视频的状态和播放当前进度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
