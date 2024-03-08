@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T07:54:29.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Ew03nOpNk2g6NkJYDoX-" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T07:57:32.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="73wLrdh_Cwn6T9B5ZQRl" version="24.0.2" type="github">
   <diagram name="第 1 页" id="9EHZgjo_UKtD6r8Uzgz9">
     <mxGraphModel dx="2261" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,6 +25,22 @@
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-5" value="ccapi-py" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1dUwBtqG9SPAVf1FS5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Ub1dUwBtqG9SPAVf1FS5-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="170" as="targetPoint" />
+            <mxPoint x="179.5" y="-20" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="180" y="-19" />
+              <mxPoint x="410" y="-19" />
+              <mxPoint x="410" y="188" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1dUwBtqG9SPAVf1FS5-60" value="补偿dom操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ub1dUwBtqG9SPAVf1FS5-59">
+          <mxGeometry x="-0.0963" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-6" value="ccapi-java" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="100" y="-50" width="120" height="60" as="geometry" />
