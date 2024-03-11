@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T06:43:41.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="L7NTgxp2FMHvTMZWvrEJ" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T06:44:14.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HEROjHre-LFOhxQITCvS" version="24.0.4" type="github">
   <diagram name="第 1 页" id="9EHZgjo_UKtD6r8Uzgz9">
     <mxGraphModel dx="2261" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -198,7 +198,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-65" value="直播间管理" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-178.5" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="-400" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ub1dUwBtqG9SPAVf1FS5-66" target="Ub1dUwBtqG9SPAVf1FS5-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -212,15 +212,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-66" value="详情" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="51.5" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="-170" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ub1dUwBtqG9SPAVf1FS5-68" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="451.5" y="1060" as="targetPoint" />
+            <mxPoint x="230" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-68" value="高级" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="251.5" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ub1dUwBtqG9SPAVf1FS5-73" target="Ub1dUwBtqG9SPAVf1FS5-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -231,13 +231,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-73" value="插播音视频方式&lt;div&gt;0:rtc模式 1:点播模式&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="451.5" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-74" value="更新房间信息&lt;div&gt;video_play_mode&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="688.5" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="467" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-77" value="查询房间信息&lt;div&gt;返回videoPlayMode&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="51.5" y="1170" width="120" height="60" as="geometry" />
+          <mxGeometry x="-170" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ub1dUwBtqG9SPAVf1FS5-81" value="获取dom操作信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="690" width="120" height="60" as="geometry" />
