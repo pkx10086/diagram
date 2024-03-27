@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T07:45:06.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="wKZvQx-MynymWPA3mEs7" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T07:47:01.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="b4WOibJ1o6qA0OlJ0rOJ" version="24.2.0" type="github">
   <diagram name="第 1 页" id="r3Djmuz2ye2oca1lGff4">
     <mxGraphModel dx="1195" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -330,6 +330,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="kOlZsusqcGDuaDFS6jYv-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kOlZsusqcGDuaDFS6jYv-33" target="kOlZsusqcGDuaDFS6jYv-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="915" y="1724" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kOlZsusqcGDuaDFS6jYv-33" value="是否为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="1865" width="90" height="70" as="geometry" />
         </mxCell>
@@ -387,6 +394,15 @@
         </mxCell>
         <mxCell id="kOlZsusqcGDuaDFS6jYv-52" value="从所有节点随机选择一个机器去处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="862.5" y="2240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOlZsusqcGDuaDFS6jYv-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kOlZsusqcGDuaDFS6jYv-55" target="kOlZsusqcGDuaDFS6jYv-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kOlZsusqcGDuaDFS6jYv-55" value="根据状态和机器统计每个机器当前处理的任务数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1694" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOlZsusqcGDuaDFS6jYv-57" value="那个机器任务数少&lt;div&gt;分配哪台机器处理&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1694" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
