@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T05:51:43.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="VWgKmaflWa1ou9HMFqYY" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T06:43:46.266Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="whyfMVxOGBT9p7FX4_4H" version="24.2.0" type="github">
   <diagram name="第 1 页" id="r3Djmuz2ye2oca1lGff4">
     <mxGraphModel dx="1434" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pY0ivnKaFW7mTaEsZtzo-48" target="pY0ivnKaFW7mTaEsZtzo-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pY0ivnKaFW7mTaEsZtzo-48" value="source=1 为小班课" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#d6b656;rounded=1;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="pY0ivnKaFW7mTaEsZtzo-48" value="source=1 为小班课&lt;div&gt;或者客户端上传优先级=1&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#d6b656;rounded=1;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="800" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-50" value="设置优先级 priority=1" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#d6b656;rounded=1;gradientColor=none;" parent="1" vertex="1">
@@ -123,7 +123,7 @@
           <mxGeometry x="600" y="1206" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-122" value="Dw处理文档按priority 倒序处理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1330" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="2320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kOlZsusqcGDuaDFS6jYv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kOlZsusqcGDuaDFS6jYv-1" target="kOlZsusqcGDuaDFS6jYv-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -159,7 +159,12 @@
           <mxGeometry x="380" y="1860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kOlZsusqcGDuaDFS6jYv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kOlZsusqcGDuaDFS6jYv-12" target="kOlZsusqcGDuaDFS6jYv-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="2020" />
+              <mxPoint x="590" y="1900" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="kOlZsusqcGDuaDFS6jYv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kOlZsusqcGDuaDFS6jYv-12" target="kOlZsusqcGDuaDFS6jYv-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -311,13 +316,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kOlZsusqcGDuaDFS6jYv-64" value="定时刷新" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="270" y="2360" width="80" height="80" as="geometry" />
+          <mxGeometry x="295" y="2510" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kOlZsusqcGDuaDFS6jYv-65" value="加载账号优先级到缓存" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="420" y="2370" width="140" height="60" as="geometry" />
+          <mxGeometry x="445" y="2520" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kOlZsusqcGDuaDFS6jYv-70" value="更新DC文档处理优先级" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_yJgZMV5lZ6kW6d0MWc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kOlZsusqcGDuaDFS6jYv-75" target="pY0ivnKaFW7mTaEsZtzo-122">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kOlZsusqcGDuaDFS6jYv-75" value="携带优先级调DW节点进行处理" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="380" y="2170" width="120" height="60" as="geometry" />
