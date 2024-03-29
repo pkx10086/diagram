@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T03:13:16.126Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GyHuHIqBspYc9BlGMIlJ" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T03:22:18.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="oYre2ox1qIkNjVOLsR5Q" version="24.2.0" type="github">
   <diagram name="第 1 页" id="r3Djmuz2ye2oca1lGff4">
     <mxGraphModel dx="2261" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -473,6 +473,9 @@
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-47" value="小时" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="5" y="1734" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-48" value="缓存需要加过期时间防止，账户不使用或者删除还在缓存里" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="1660" width="365" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
