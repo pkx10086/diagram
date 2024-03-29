@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T08:22:43.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="BvZtm2dWqySN5FOv-rgc" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T08:33:38.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Z_oQakDGA4pXXPvoexGi" version="24.2.0" type="github">
   <diagram name="第 1 页" id="r3Djmuz2ye2oca1lGff4">
-    <mxGraphModel dx="3966" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2706" dy="2130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,8 +18,8 @@
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="pY0ivnKaFW7mTaEsZtzo-12" target="pY0ivnKaFW7mTaEsZtzo-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-668.58" y="540" />
-              <mxPoint x="-198.57999999999998" y="540" />
+              <mxPoint x="-260.00000000000006" y="200" />
+              <mxPoint x="210" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-12" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-698.58" y="410" width="30" height="60" as="geometry" />
+          <mxGeometry x="-290.00000000000006" y="70" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="pY0ivnKaFW7mTaEsZtzo-15" target="pY0ivnKaFW7mTaEsZtzo-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -40,7 +40,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-15" value="live-api" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-508.58" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pY0ivnKaFW7mTaEsZtzo-20" target="pY0ivnKaFW7mTaEsZtzo-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -54,18 +54,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-20" value="live_document_dc" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;rounded=1;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="-258.58" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="150" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-21" value="4.返回上传地址" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="pY0ivnKaFW7mTaEsZtzo-20" target="pY0ivnKaFW7mTaEsZtzo-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-278.58" y="469" as="sourcePoint" />
-            <mxPoint x="-358.58" y="469" as="targetPoint" />
+            <mxPoint x="130" y="129" as="sourcePoint" />
+            <mxPoint x="50" y="129" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-22" value="5.返回上传地址,文档id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pY0ivnKaFW7mTaEsZtzo-15" target="pY0ivnKaFW7mTaEsZtzo-12" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-548.58" y="480" as="sourcePoint" />
-            <mxPoint x="-628.58" y="480" as="targetPoint" />
+            <mxPoint x="-140.00000000000006" y="140" as="sourcePoint" />
+            <mxPoint x="-220.00000000000006" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="pY0ivnKaFW7mTaEsZtzo-29" target="pY0ivnKaFW7mTaEsZtzo-20" edge="1">
@@ -77,16 +77,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-29" value="live_document_dw" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;rounded=1;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="7.420000000000002" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="416" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pY0ivnKaFW7mTaEsZtzo-48" target="pY0ivnKaFW7mTaEsZtzo-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-48" value="source=1 为小班课&lt;div&gt;或者客户端上传优先级=1&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#d6b656;rounded=1;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-258.58" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="150" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-50" value="设置优先级 priority=1" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#d6b656;rounded=1;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-58.58" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pY0ivnKaFW7mTaEsZtzo-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="pY0ivnKaFW7mTaEsZtzo-57" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -486,8 +486,8 @@
         <mxCell id="LlFDiHsfBPw3mXegqhl9-50" value="状态可用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-750.5" y="1760" width="90.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LlFDiHsfBPw3mXegqhl9-52" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;备注&lt;/h1&gt;&lt;p&gt;1、设置了账号优先级，如果该账号文档比较多，肯定会影响其它客户端的上传&lt;/p&gt;&lt;p&gt;2、因为目前是预分配给dw去处理，如果当时任务比较多，机器比较少，并且大文档出现在某台机器上，那在这台机器上的文档也会处理速度比较慢&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-845" y="1440" width="432" height="140" as="geometry" />
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-52" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;备注&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;1、设置了账号优先级，如果该账号文档比较多，肯定会影响其它客户端的上传&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;2、因为目前是预分配给dw去处理，如果当时任务比较多，机器比较少，并且大文档出现在某台机器上，那在这台机器上的文档也会处理速度比较慢&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="1220" width="430" height="240" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LlFDiHsfBPw3mXegqhl9-53" target="LlFDiHsfBPw3mXegqhl9-61">
           <mxGeometry relative="1" as="geometry" />
@@ -496,22 +496,25 @@
           <mxGeometry x="-40.000000000000014" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-55" value="1、优化点" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="1020" width="560" height="270" as="geometry" />
+          <mxGeometry x="-635" y="690" width="560" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="LlFDiHsfBPw3mXegqhl9-57" value="节点平均分配" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-581.5" y="1080" width="120" height="60" as="geometry" />
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-57" value="节点平均分配" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-566.5" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LlFDiHsfBPw3mXegqhl9-58" value="账号优先级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-420.5" y="1080" width="120" height="60" as="geometry" />
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-58" value="账号优先级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-405.5" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LlFDiHsfBPw3mXegqhl9-59" value="专用节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-253" y="1080" width="120" height="60" as="geometry" />
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-59" value="专用节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-238" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LlFDiHsfBPw3mXegqhl9-60" value="大文件，处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-581.4999999999999" y="1190" width="120" height="60" as="geometry" />
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-60" value="大文件，处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-566.4999999999999" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-61" value="根据状态和机器统计每个机器的任务数。优先选择少的数据分配" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-240" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-63" value="课堂中优先级-&amp;gt;admin=open-api-&amp;gt;批量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-390" y="850" width="260" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
