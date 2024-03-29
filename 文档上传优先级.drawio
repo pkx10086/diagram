@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T03:26:13.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="-llPj9qQgAT5JELb0u5M" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T03:30:52.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="l9rSHFfb64AbWSLctMfF" version="24.2.0" type="github">
   <diagram name="第 1 页" id="r3Djmuz2ye2oca1lGff4">
     <mxGraphModel dx="2261" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -482,6 +482,9 @@
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-50" value="状态可用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-750.5" y="1760" width="90.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-52" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;备注&lt;/h1&gt;&lt;p&gt;1、设置了账号优先级，如果该账号文档比较多，肯定会影响其它客户端的上传&lt;/p&gt;&lt;p&gt;2、因为目前是预分配给dw去处理，如果当时任务比较多，机器比较少，并且大文档出现在某台机器上，那在这台机器上的文档也会处理速度比较慢&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-432" y="1360" width="432" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
