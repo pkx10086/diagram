@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T03:22:18.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="oYre2ox1qIkNjVOLsR5Q" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T03:26:13.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="-llPj9qQgAT5JELb0u5M" version="24.2.0" type="github">
   <diagram name="第 1 页" id="r3Djmuz2ye2oca1lGff4">
     <mxGraphModel dx="2261" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -462,8 +462,8 @@
             <mxPoint x="-29" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LlFDiHsfBPw3mXegqhl9-42" value="定时刷新" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-730" y="1714" width="80" height="80" as="geometry" />
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-42" value="定时刷新" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="1691" width="126" height="126" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-45" value="day" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-345" y="1734" width="40" height="40" as="geometry" />
@@ -476,6 +476,12 @@
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-48" value="缓存需要加过期时间防止，账户不使用或者删除还在缓存里" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-425" y="1660" width="365" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-49" value="可用时间范围" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-750.5" y="1724" width="87" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-50" value="状态可用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-750.5" y="1760" width="90.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
