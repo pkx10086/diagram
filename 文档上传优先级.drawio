@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T08:16:32.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="vRv6n9sSit7js-OmTBDO" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T08:19:49.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="rdyYUxsRKwk7rG3RwS14" version="24.2.0" type="github">
   <diagram name="第 1 页" id="r3Djmuz2ye2oca1lGff4">
     <mxGraphModel dx="2981" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -492,20 +492,20 @@
         <mxCell id="LlFDiHsfBPw3mXegqhl9-53" value="专用节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-40.000000000000014" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LlFDiHsfBPw3mXegqhl9-55" value="1、优化项目" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="900" width="560" height="270" as="geometry" />
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-55" value="1、优化点" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="1020" width="560" height="270" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-57" value="节点平均分配" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-641.5" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="-581.5" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-58" value="账号优先级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-480.5" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="-420.5" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-59" value="专用节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-313" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="-253" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LlFDiHsfBPw3mXegqhl9-60" value="专用节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-641.4999999999999" y="1070" width="120" height="60" as="geometry" />
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-60" value="大文件，处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-581.4999999999999" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
