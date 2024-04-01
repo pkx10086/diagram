@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T05:52:10.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="-nWl9kZ2LPXziDJZe_9V" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T06:26:14.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="fofPON4TTKHq31DVyblz" version="24.2.1" type="github">
   <diagram name="第 1 页" id="r3Djmuz2ye2oca1lGff4">
     <mxGraphModel dx="2261" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -464,7 +464,7 @@
         <mxCell id="LlFDiHsfBPw3mXegqhl9-50" value="状态可用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-750.5" y="1760" width="90.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LlFDiHsfBPw3mXegqhl9-52" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;备注&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;1、设置了账号优先级，如果该账号文档比较多，肯定会影响其它客户端的上传&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;2、因为目前是预分配给dw去处理，如果当时任务比较多，机器比较少，并且大文档出现在某台机器上，那在这台机器上的文档也会处理速度比较慢&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="LlFDiHsfBPw3mXegqhl9-52" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;备注&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;1、设置了账号优先级，如果该账号文档比较多，肯定会影响其它客户转码&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;2、因为目前是预分配给dw去处理，如果当时任务比较多，机器比较少，并且大文档出现在某台机器上，那在这台机器上的文档也会处理速度比较慢&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-770" y="1220" width="430" height="240" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LlFDiHsfBPw3mXegqhl9-53" target="LlFDiHsfBPw3mXegqhl9-61" edge="1">
@@ -474,7 +474,7 @@
           <mxGeometry x="-40.000000000000014" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-55" value="1、优化点" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-635" y="690" width="560" height="270" as="geometry" />
+          <mxGeometry x="-635" y="690" width="560" height="260" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-57" value="节点平均分配" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-566.5" y="750" width="120" height="60" as="geometry" />
