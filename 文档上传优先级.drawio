@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T07:00:16.323Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="9ii9ftLnntPRC5I4abDm" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T08:55:55.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="H2-Dbf4LI_rUniewf_dU" version="24.2.1" type="github">
   <diagram name="第 1 页" id="r3Djmuz2ye2oca1lGff4">
     <mxGraphModel dx="2261" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -582,8 +582,38 @@
         <mxCell id="bNezhzhbTcK01wjU4TNn-3" value="proton增加将文档设置失败的入口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-506.5" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="bNezhzhbTcK01wjU4TNn-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNezhzhbTcK01wjU4TNn-4" target="bNezhzhbTcK01wjU4TNn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bNezhzhbTcK01wjU4TNn-4" value="DW的工作流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-697.5" y="2350" width="120" height="60" as="geometry" />
+          <mxGeometry x="-605.5" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNezhzhbTcK01wjU4TNn-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNezhzhbTcK01wjU4TNn-6" target="bNezhzhbTcK01wjU4TNn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNezhzhbTcK01wjU4TNn-6" value="下载文档" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-405.5" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNezhzhbTcK01wjU4TNn-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNezhzhbTcK01wjU4TNn-8" target="bNezhzhbTcK01wjU4TNn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNezhzhbTcK01wjU4TNn-8" value="转码任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-205.5" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNezhzhbTcK01wjU4TNn-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNezhzhbTcK01wjU4TNn-10" target="bNezhzhbTcK01wjU4TNn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNezhzhbTcK01wjU4TNn-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNezhzhbTcK01wjU4TNn-10" target="bNezhzhbTcK01wjU4TNn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNezhzhbTcK01wjU4TNn-10" value="分发" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-5.5" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNezhzhbTcK01wjU4TNn-12" value="分发" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNezhzhbTcK01wjU4TNn-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
