@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T08:33:09.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="iwDCXyRU9ibB1dgM8uZX" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T01:07:33.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="niDEjWrOOYwHLziJb9Yj" version="24.2.1" type="github">
   <diagram name="第 1 页" id="r3Djmuz2ye2oca1lGff4">
-    <mxGraphModel dx="2261" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2514" dy="2074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -287,11 +287,6 @@
         <mxCell id="kOlZsusqcGDuaDFS6jYv-52" value="从所有节点随机选择一个机器去处理" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="862.5" y="1680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOlZsusqcGDuaDFS6jYv-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kOlZsusqcGDuaDFS6jYv-55" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1220" y="1164" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="kOlZsusqcGDuaDFS6jYv-55" value="根据状态和机器统计每个机器当前处理的任务数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1030" y="1134" width="120" height="60" as="geometry" />
         </mxCell>
@@ -569,6 +564,20 @@
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-95" value="open-api&lt;div&gt;admin&lt;/div&gt;&lt;div&gt;小班课&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-505" y="-360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdSPaDMELfET06kvYxi-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2KdSPaDMELfET06kvYxi-1" target="2KdSPaDMELfET06kvYxi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdSPaDMELfET06kvYxi-4" value="获取任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2KdSPaDMELfET06kvYxi-3">
+          <mxGeometry x="0.0059" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KdSPaDMELfET06kvYxi-1" value="dw" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1124" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdSPaDMELfET06kvYxi-2" value="dc" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1124" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
