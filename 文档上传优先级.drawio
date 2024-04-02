@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T02:16:02.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="SURj3VGI-D-TvKnJNFMg" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T02:54:13.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="je3mJt-x7FY63C3sXdc6" version="24.2.1" type="github">
   <diagram name="第 1 页" id="r3Djmuz2ye2oca1lGff4">
     <mxGraphModel dx="2261" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -469,25 +469,25 @@
           <mxGeometry x="-40.000000000000014" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-55" value="1、优化点" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-450" y="800" width="535" height="250" as="geometry" />
+          <mxGeometry x="-550" y="766" width="530" height="320" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-57" value="节点平均分配" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-406.5" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="-506.5" y="816" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-58" value="账号优先级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-245.5" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="-345.5" y="816" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-59" value="专用节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-78" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="-178" y="816" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-60" value="大文件，处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-406.4999999999999" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="-506.4999999999999" y="926" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-61" value="根据状态和机器统计每个机器的任务数。优先选择少的数据分配" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-240" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-63" value="课堂中优先级-&amp;gt;admin=open-api-&amp;gt;批量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=13;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-230" y="955" width="260" height="65" as="geometry" />
+          <mxGeometry x="-330" y="921" width="260" height="65" as="geometry" />
         </mxCell>
         <mxCell id="LlFDiHsfBPw3mXegqhl9-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LlFDiHsfBPw3mXegqhl9-64" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -578,6 +578,9 @@
         </mxCell>
         <mxCell id="2KdSPaDMELfET06kvYxi-2" value="dc" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1260" y="1124" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bNezhzhbTcK01wjU4TNn-1" value="proton增加将文档设置失败的入口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-506.5" y="1016" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
