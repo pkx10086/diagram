@@ -1,11 +1,103 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="CePvX0jpmV7Ojrq6W947">
-    <mxGraphModel dx="1603" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1822" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Pa1YZveFJwInNNt8BOtf-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-1" target="Pa1YZveFJwInNNt8BOtf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-1" target="Pa1YZveFJwInNNt8BOtf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-1" value="&lt;b&gt;创建房间&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-6" target="Pa1YZveFJwInNNt8BOtf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-6" target="Pa1YZveFJwInNNt8BOtf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-6" value="获取vuion账号权限" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-11" value="&lt;span style=&quot;color: rgb(31, 31, 31); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;接口：api/room/account/authority&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="10" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-13" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;system-ui, sans-serif&quot; color=&quot;#1f1f1f&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;customTemplate&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;system-ui, sans-serif&quot; color=&quot;#1f1f1f&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;（拓客云模板） 0@关闭1@开启&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="10" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-16" target="Pa1YZveFJwInNNt8BOtf-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-16" target="Pa1YZveFJwInNNt8BOtf-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-16" value="选择互动模板2.0" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-18" target="Pa1YZveFJwInNNt8BOtf-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="545" />
+              <mxPoint x="330" y="545" />
+              <mxPoint x="330" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-18" value="选择互动模板2.0-16：9" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-20" target="Pa1YZveFJwInNNt8BOtf-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-20" value="选择互动模板2.0-4：3" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-22" value="16：9 的layoutMode 设置6&amp;nbsp;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-24" value="4：3 的layoutMode 设置7" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="417.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-26" target="Pa1YZveFJwInNNt8BOtf-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-26" target="Pa1YZveFJwInNNt8BOtf-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-26" value="编辑房间-高级" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-29" target="Pa1YZveFJwInNNt8BOtf-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-29" target="Pa1YZveFJwInNNt8BOtf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-29" value="查询房间详情" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-32" value="接口：room/info" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-33" value="字段：&lt;span style=&quot;font-family: SFMono-Medium, &amp;quot;SF Mono&amp;quot;, &amp;quot;Segoe UI Mono&amp;quot;, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, Courier, monospace; background-color: rgb(255, 255, 255); color: rgb(23, 43, 77); font-size: 14px; text-align: start;&quot;&gt;autoStartClass，讲师近房自动开播 0@关闭1@开启&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: SFMono-Medium, &amp;quot;SF Mono&amp;quot;, &amp;quot;Segoe UI Mono&amp;quot;, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, Courier, monospace; background-color: rgb(255, 255, 255); color: rgb(23, 43, 77); font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: SFMono-Medium, &amp;quot;SF Mono&amp;quot;, &amp;quot;Segoe UI Mono&amp;quot;, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, Courier, monospace; background-color: rgb(255, 255, 255); color: rgb(23, 43, 77); font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif;&quot;&gt;redirectUrlAfterClass&amp;nbsp; 直播结束跳转链接&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="630" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pa1YZveFJwInNNt8BOtf-35" target="Pa1YZveFJwInNNt8BOtf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-35" value="更新房间" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa1YZveFJwInNNt8BOtf-37" value="room/update" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
