@@ -158,10 +158,10 @@
             <mxPoint x="490" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rRvzmvTFUgVNQIvKsfui-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="人员借用待审核列表" vertex="1">
+        <mxCell id="rRvzmvTFUgVNQIvKsfui-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="人员借用待审核列表" vertex="1">
           <mxGeometry height="60" width="120" x="170" y="710" as="geometry" />
         </mxCell>
-        <mxCell id="rRvzmvTFUgVNQIvKsfui-50" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="可以根据人员查询、项目查询、按项目经理查询（审批人）查询列表" vertex="1">
+        <mxCell id="rRvzmvTFUgVNQIvKsfui-50" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="可以根据人员查询、项目查询、按项目经理查询（审批人）查询列表" vertex="1">
           <mxGeometry height="70" width="200" x="390" y="610" as="geometry" />
         </mxCell>
         <mxCell id="rRvzmvTFUgVNQIvKsfui-54" edge="1" parent="1" source="rRvzmvTFUgVNQIvKsfui-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rRvzmvTFUgVNQIvKsfui-56">
@@ -172,31 +172,31 @@
         <mxCell id="rRvzmvTFUgVNQIvKsfui-64" edge="1" parent="1" source="rRvzmvTFUgVNQIvKsfui-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rRvzmvTFUgVNQIvKsfui-63" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rRvzmvTFUgVNQIvKsfui-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="项目经理可以操作审核" vertex="1">
+        <mxCell id="rRvzmvTFUgVNQIvKsfui-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="项目经理可以操作审核" vertex="1">
           <mxGeometry height="60" width="120" x="430" y="840" as="geometry" />
         </mxCell>
         <mxCell id="rRvzmvTFUgVNQIvKsfui-58" edge="1" parent="1" source="rRvzmvTFUgVNQIvKsfui-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rRvzmvTFUgVNQIvKsfui-57" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rRvzmvTFUgVNQIvKsfui-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="审核成功" vertex="1">
+        <mxCell id="rRvzmvTFUgVNQIvKsfui-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="审核成功" vertex="1">
           <mxGeometry height="60" width="120" x="670" y="740" as="geometry" />
         </mxCell>
         <mxCell id="rRvzmvTFUgVNQIvKsfui-62" edge="1" parent="1" source="rRvzmvTFUgVNQIvKsfui-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rRvzmvTFUgVNQIvKsfui-61" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rRvzmvTFUgVNQIvKsfui-57" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;div&gt;建立新的人员归属项目的数据关系&amp;nbsp;&lt;/div&gt;&lt;div&gt;和 人员单价（有时间交叉的更改数据关系）&lt;/div&gt;" vertex="1">
+        <mxCell id="rRvzmvTFUgVNQIvKsfui-57" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;div&gt;建立新的人员归属项目的数据关系&amp;nbsp;&lt;/div&gt;&lt;div&gt;和 人员单价（有时间交叉的更改数据关系）&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="870" y="740" as="geometry" />
         </mxCell>
-        <mxCell id="rRvzmvTFUgVNQIvKsfui-61" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="更新流程状态flow_summary" vertex="1">
+        <mxCell id="rRvzmvTFUgVNQIvKsfui-61" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="更新流程状态flow_summary" vertex="1">
           <mxGeometry height="60" width="120" x="1070" y="740" as="geometry" />
         </mxCell>
         <mxCell id="rRvzmvTFUgVNQIvKsfui-66" edge="1" parent="1" source="rRvzmvTFUgVNQIvKsfui-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rRvzmvTFUgVNQIvKsfui-65" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rRvzmvTFUgVNQIvKsfui-63" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="拒绝" vertex="1">
+        <mxCell id="rRvzmvTFUgVNQIvKsfui-63" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="拒绝" vertex="1">
           <mxGeometry height="60" width="120" x="670" y="940" as="geometry" />
         </mxCell>
-        <mxCell id="rRvzmvTFUgVNQIvKsfui-65" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="更新流程状态flow_summary" vertex="1">
+        <mxCell id="rRvzmvTFUgVNQIvKsfui-65" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="更新流程状态flow_summary" vertex="1">
           <mxGeometry height="60" width="120" x="870" y="940" as="geometry" />
         </mxCell>
       </root>
